@@ -9,10 +9,10 @@
     "build": "microbundle --target=node --f es,cjs",
     "dev": "microbundle watch"
   },
-  "author": "Eric Simons",
+  "author": "nxpkg",
   "license": "MIT",
   "dependencies": {
-    "firebase-tools": "^6.0.0"
+    "firebase-tools": "^12.6.2"
   },
   "devDependencies": {
     "microbundle": "^0.7.0"
