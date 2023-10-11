@@ -1,17 +1,20 @@
 # NxPKG — Your local env, now in the browser
 
-[![Chat on Discord](https://img.shields.io/badge/chat-on%20discord-7289da.svg)](https://discord.gg/nxpkg)
+[![Chat on Discord](https://img.shields.io/badge/chat-on%20discord-7289da.svg)](https://discord.gg/nxpkg)&nbsp; [![Read our docs](https://img.shields.io/badge/read-our%20docs-1374ef.svg)](https://developer.nxpkg.com)
 
 Welcome to the NxPKG GitHub repository!
 
-This repository serves as our primary way of [keeping track of bugs](https://github.com/nxpkg/core/issues). If you have any questions/ideas/feedback, feel free to open an issue or come chat with us on [Discord](https://discord.gg/nxpkg)!
+This repository serves as our primary way of [keeping track of bugs](https://github.com/nxpkg/core/issues). If you have any questions/ideas/feedback, feel free to [open an issue](https://github.com/nxpkg/core/issues/new/choose), or come chat with us on [Discord](https://discord.gg/nxpkg)!
 
-## Documentation
+## Learn more
 
-Check out our docs at [dev-nxpkg.khulnasoft.com](https://dev-nxpkg.khulnasoft.com/).
+- [Read our docs](https://developer.nxpkg.com/) to learn about our features for developers, open-source and design system maintainers, and more.
+- [Check out our blog](https://blog.nxpkg.com/) for all the latest news, and deep dives in the Web technologies that power NxPKG.
 
-## Archived packages
+## Other repositories
 
-This repository contains an archive of internal packages that constituted the original 2017 version of NxPKG. Read the [2017 announcement post](https://medium.com/@ericsimons/nxpkg-online-vs-code-ide-for-angular-react-7d09348497f4) which covers the initial core functionality, feature set and motivations behind the project.
-
-Curious how that technology works? We recommend [reading the write-up](https://medium.com/@ericsimons/introducing-turbo-5x-faster-than-yarn-npm-and-runs-natively-in-browser-cc2c39715403) we did and exploring the code in this GitHub repo.
+- NxPKG docs: [nxpkg/docs](https://github.com/nxpkg/docs)
+- NxPKG SDK: [nxpkg/sdk](https://github.com/nxpkg/sdk)
+- Starter templates: [nxpkg/starters](https://github.com/nxpkg/starters)
+- WebContainers: [nxpkg/webcontainer-core](https://github.com/nxpkg/webcontainer-core)
+- WebContainer API docs: [nxpkg/webcontainer-docs](https://github.com/nxpkg/webcontainer-docs)
