@@ -12,7 +12,7 @@
   "author": "nxpkg",
   "license": "MIT",
   "dependencies": {
-    "firebase-tools": "^12.6.2"
+    "firebase-tools": "^12.7.0"
   },
   "devDependencies": {
     "microbundle": "^0.15.1"
