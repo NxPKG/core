@@ -25,7 +25,15 @@ jobs:
           LABEL_NAME: "Status%3A%20EngineBlock"
           CUSTOM_MESSAGE: 'Hey there! \n \n It looks like you are using an EngineBlock project, which we recently removed from our starters. You can read more about how we are upgrading our starters here: [Starters Upgrade: WebContainers and Vite](https://nxpkg.github.io/webcontainers-starters-update/).\n\nMoving forward I would recommend that you see if this problem persists in a WebContainer based project. You can do that by simply clicking one of the links below: \n [node.new](https://node.new) \n [vite.new](https://vite.new) \n Or even more here.\n\nFor now, I am going to close this issue, but feel free to open a new one if you have any issues with the WebContainer based project.'
         run: |
-          set -e  # Stop the script if any command fails
+          if ! gh issue comment "${{ github.event.issue.number }}" --body "$CUSTOM_MESSAGE"; then
+            echo "Failed to comment on the issue, but continuing..."
+          fi
+          if ! gh issue close "${{ github.event.issue.number }}"; then
+            echo "Failed to close the issue, but continuing..."
+          fi
+          if ! gh issue lock "${{ github.event.issue.number }}"; then
+            echo "Failed to lock the issue, but continuing..."
+          fi
           set -x  # Echo each command before executing it
 
           page=1
