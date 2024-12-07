@@ -20,6 +20,8 @@ jobs:
         run: sudo apt-get update && sudo apt-get install -y jq
 
       - name: Close and lock issues
+        permissions:
+          issues: write
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           LABEL_NAME: "Status%3A%20EngineBlock"
